@@ -39,6 +39,7 @@ It can be annoying when you’re playing a game with friends and your mic sudden
      ```
      C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
      ```
+   * Disable `lock_mic_vol.bat` in autostart
 
      This will make it run every time Windows starts.
     * and now restart windows
