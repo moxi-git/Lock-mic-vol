@@ -9,8 +9,7 @@ It can be annoying when you’re playing a game with friends and your mic sudden
 
 ### Instructions
 
-1. **Download** the files:
-   [Lock.mic.vol.zip](https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip)
+1. **Download** the files: https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip
 
 2. **Extract** the files.
 
