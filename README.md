@@ -10,4 +10,4 @@
 
 4. Go to the directory "C:\Windows" and paste the files : " hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe "
 
-5. Then you can run the file "start_lock_mic_vol.bat". (If you want to make this run automatically at startup then paste this file in the directory "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp", this will automatically run the script on startup)
+5. Then you can run the file "start_lock_mic_vol.bat".
