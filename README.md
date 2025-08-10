@@ -1,16 +1,45 @@
 # Lock-mic-vol
 
-### what it does?
-This simple set of files addresses an issue with Windows mic volume auto-controlling. because it can be anoying when your playing a game with friends and it suddenly drops to 20% or smth like that
+### What does it do?
+
+This simple set of files fixes an issue where Windows automatically changes your microphone volume.
+It can be annoying when you’re playing a game with friends and your mic suddenly drops to 20% or something like that.
+
+---
 
 ### Instructions
 
-1. Download these files https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip
+1. **Download** the files:
+   [Lock.mic.vol.zip](https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip)
 
-2. Extract the files
+2. **Extract** the files.
 
-3. In the file "lock_mic_vol.bat" the default value is "58321" which is 89%, so if you want to make the volume lock onto 50% then just do some simple math ((65536/100)*50) which will give you 32768, so replace "58321" with "32768" to make the volume level lock onto 50
+3. **Edit the mic volume lock value**:
 
-4. Go to the directory "C:\Windows" and paste the files : " hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe "
+   * In `lock_mic_vol.bat`, the default value is `58321` (which equals 89%).
+   * If you want to lock it to 50%, do the math:
 
-5. Then you can run the file "start_lock_mic_vol.bat". (If you want to make this run automatically at startup then paste this file in the directory "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp", this will automatically run the script on startup)
+     ```
+     (65536 / 100) * 50 = 32768
+     ```
+
+     Replace `58321` with `32768` in the script.
+
+4. **Copy the following files to** `C:\Windows`:
+
+   ```
+     hide_cmd_window2.vbs
+     lock_mic_vol.bat
+     nircmdc.exe
+     start_lock_mic_vol.bat
+   ```
+
+5. **Run the script**:
+   * To make it run automatically at startup, copy **hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe, start_lock_mic_vol.bat** to:
+
+     ```
+     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+     ```
+
+     This will make it run every time Windows starts.
+    * and now restart windows
