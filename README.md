@@ -1,5 +1,8 @@
 # Lock-mic-vol
 
+### what it does?
+This simple set of files addresses an issue with Windows mic volume auto-controlling. because it can be anoying when your playing a game with friends and it suddenly drops to 20% or smth like that
+
 ### Instructions
 
 1. Download these files https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip
