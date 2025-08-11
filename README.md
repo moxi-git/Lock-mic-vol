@@ -16,7 +16,7 @@ It can be annoying when you’re playing a game with friends and your mic sudden
 3. **Edit the mic volume lock value**:
 
    * In `lock_mic_vol.bat`, the default value is `58321` (which equals 89%).
-   * If you want to lock it to 50%, do the math:
+   * If you want to lock it to 50%, do the math (65536 is 100% btw):
 
      ```
      (65536 / 100) * 50 = 32768
@@ -43,3 +43,29 @@ It can be annoying when you’re playing a game with friends and your mic sudden
 
      This will make it run every time Windows starts.
     * and now restart windows
+
+## Vol Cheat Table:
+| % Volume | Value (out of 65536) |
+| -------- | -------------------- |
+| 0%       | 0                    |
+| 5%       | 3277                 |
+| 10%      | 6554                 |
+| 15%      | 9830                 |
+| 20%      | 13107                |
+| 25%      | 16384                |
+| 30%      | 19661                |
+| 35%      | 22937                |
+| 40%      | 26214                |
+| 45%      | 29491                |
+| 50%      | 32768                |
+| 55%      | 36044                |
+| 60%      | 39322                |
+| 65%      | 42598                |
+| 70%      | 45875                |
+| 75%      | 49152                |
+| 80%      | 52429                |
+| 85%      | 55705                |
+| 89%      | 58321  (default)              |
+| 90%      | 58982                |
+| 95%      | 62259                |
+| 100%     | 65536                |
