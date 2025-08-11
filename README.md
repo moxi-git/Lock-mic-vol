@@ -10,10 +10,12 @@ It can be annoying when you’re playing a game with friends and your mic sudden
 ### Instructions
 
 1. **Download** the files: https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/Lock.mic.vol.zip
+   
+   you can also download [pyvol_calc](https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/pyvol_calc.exe) to help you calculate the volume
 
-2. **Extract** the files.
+3. **Extract** the files.
 
-3. **Edit the mic volume lock value**:
+4. **Edit the mic volume lock value**:
 
    * In `lock_mic_vol.bat`, the default value is `58321` (which equals 89%).
    * If you want to lock it to 50%, do the math (65536 is 100% btw):
@@ -24,7 +26,7 @@ It can be annoying when you’re playing a game with friends and your mic sudden
 
      Replace `58321` with `32768` in the script.
 
-4. **Copy the following files to** `C:\Windows`:
+5. **Copy the following files to** `C:\Windows`:
 
    ```
      hide_cmd_window2.vbs
@@ -33,7 +35,7 @@ It can be annoying when you’re playing a game with friends and your mic sudden
      start_lock_mic_vol.bat
    ```
 
-5. **Run the script**:
+6. **Run the script**:
    * To make it run automatically at startup, copy **hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe, start_lock_mic_vol.bat** to:
 
      ```
@@ -44,28 +46,5 @@ It can be annoying when you’re playing a game with friends and your mic sudden
      This will make it run every time Windows starts.
     * and now restart windows
 
-## Vol Cheat Table:
-| % Volume | Value (out of 65536) |
-| -------- | -------------------- |
-| 0%       | 0                    |
-| 5%       | 3277                 |
-| 10%      | 6554                 |
-| 15%      | 9830                 |
-| 20%      | 13107                |
-| 25%      | 16384                |
-| 30%      | 19661                |
-| 35%      | 22937                |
-| 40%      | 26214                |
-| 45%      | 29491                |
-| 50%      | 32768                |
-| 55%      | 36044                |
-| 60%      | 39322                |
-| 65%      | 42598                |
-| 70%      | 45875                |
-| 75%      | 49152                |
-| 80%      | 52429                |
-| 85%      | 55705                |
-| 89%      | 58321  (default)              |
-| 90%      | 58982                |
-| 95%      | 62259                |
-| 100%     | 65536                |
+## Use Pyvol_calc to calculate the volume
+https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/pyvol_calc.exe
