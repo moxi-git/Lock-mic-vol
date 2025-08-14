@@ -13,6 +13,9 @@ It can be annoying when you’re playing a game with friends and your mic sudden
    
    you can also download [pyvol_calc](https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/pyvol_calc.exe) to help you calculate the volume
 
+> [!WARNING]
+> this `Lock.mic.vol.zip` is getting flagged as false positive! so just disable Win Defender and do this Instructions without it and when your finished renable defender after reboot
+
 3. **Extract** the files.
 
 4. **Edit the mic volume lock value**:
@@ -36,14 +39,19 @@ It can be annoying when you’re playing a game with friends and your mic sudden
    ```
 
 6. **Run the script**:
-   * To make it run automatically at startup, copy **start_lock_mic_vol.bat** to:
+   * To make it run automatically at startup, copy **hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe, start_lock_mic_vol.bat** to:
 
      ```
      C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
      ```
-
      This will make it run every time Windows starts.
+
+     * Disable `lock_mic_vol.bat` in autostart
     * and now restart windows
+    * Renable defender
+
+> [!NOTE]
+> If you get any VBScript error it doesn't really matter it will work anyway
 
 ### Use Pyvol_calc to calculate the volume just type from 1-100 and it will output the right number like this `32768`.
 https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/pyvol_calc.exe
