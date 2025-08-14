@@ -36,12 +36,11 @@ It can be annoying when you’re playing a game with friends and your mic sudden
    ```
 
 6. **Run the script**:
-   * To make it run automatically at startup, copy **hide_cmd_window2.vbs, lock_mic_vol.bat, nircmdc.exe, start_lock_mic_vol.bat** to:
+   * To make it run automatically at startup, copy **start_lock_mic_vol.bat** to:
 
      ```
      C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
      ```
-   * Disable `lock_mic_vol.bat` in autostart
 
      This will make it run every time Windows starts.
     * and now restart windows
