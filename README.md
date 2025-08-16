@@ -47,11 +47,9 @@ It can be annoying when you’re playing a game with friends and your mic sudden
      This will make it run every time Windows starts.
 
      * Disable `lock_mic_vol.bat` in autostart
+     * Delete `hide_cmd_window2.vbs` from StartUP
     * and now restart windows
     * Renable defender
-
-> [!NOTE]
-> If you get any VBScript error it doesn't really matter it will work anyway
 
 ### Use Pyvol_calc to calculate the volume just type from 1-100 and it will output the right number like this `32768`.
 https://github.com/moxi-git/Lock-mic-vol/releases/download/idk/pyvol_calc.exe
